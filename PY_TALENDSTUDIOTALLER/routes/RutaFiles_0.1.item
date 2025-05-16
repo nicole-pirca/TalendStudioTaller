@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_F54skOCxEe-CvtVavXS-kg" defaultContext="Default" jobType="Standard">
+  <context xmi:id="_F54skeCxEe-CvtVavXS-kg" confirmationNeeded="false" hide="false" name="Default"/>
+  <parameters xmi:id="_F54skuCxEe-CvtVavXS-kg">
+    <elementParameter xmi:id="_F54sk-CxEe-CvtVavXS-kg" field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
+    <elementParameter xmi:id="_F54slOCxEe-CvtVavXS-kg" field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+    <elementParameter xmi:id="_F54sleCxEe-CvtVavXS-kg" field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+    <elementParameter xmi:id="_F54sluCxEe-CvtVavXS-kg" field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+    <elementParameter xmi:id="_F54sl-CxEe-CvtVavXS-kg" field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+    <elementParameter xmi:id="_F54smOCxEe-CvtVavXS-kg" field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_F54smeCxEe-CvtVavXS-kg" field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_F54smuCxEe-CvtVavXS-kg" field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+    <elementParameter xmi:id="_F54sm-CxEe-CvtVavXS-kg" field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+    <elementParameter xmi:id="_F54snOCxEe-CvtVavXS-kg" field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+    <elementParameter xmi:id="_F54sneCxEe-CvtVavXS-kg" field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_F54snuCxEe-CvtVavXS-kg" field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+    <elementParameter xmi:id="_F54sn-CxEe-CvtVavXS-kg" field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_F54soOCxEe-CvtVavXS-kg" field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+    <elementParameter xmi:id="_F54soeCxEe-CvtVavXS-kg" field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+    <elementParameter xmi:id="_F54souCxEe-CvtVavXS-kg" field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+  </parameters>
+</talendfile:ProcessType>

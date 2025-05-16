@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
-  <TalendProperties:Project xmi:id="_gL7lYdH9Ee-YSYwwHK0cfg" label="Py_TalendStudioTaller" language="java" technicalLabel="PY_TALENDSTUDIOTALLER" author="_gL7lYtH9Ee-YSYwwHK0cfg" productVersion="Talend Cloud Data Fabric-8.0.1.20240619_0909-patch" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/nicole-pirca/TalendStudioTaller&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" itemsRelationVersion="1.3" bigData="false">
+  <TalendProperties:Project xmi:id="_gL7lYdH9Ee-YSYwwHK0cfg" label="Py_TalendStudioTaller" language="java" technicalLabel="PY_TALENDSTUDIOTALLER" author="_gL7lYtH9Ee-YSYwwHK0cfg" productVersion="Talend Cloud Data Fabric-8.0.1.20241219_0901-patch" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/nicole-pirca/TalendStudioTaller&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" itemsRelationVersion="1.3" bigData="false">
     <migrationTask xmi:id="_gPmkcNH9Ee-YSYwwHK0cfg" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_gL7lYtH9Ee-YSYwwHK0cfg" login="npirca@prediqt_nfr" firstName="Nicole" lastName="Pirca" type="DQ"/>
+  <TalendProperties:User xmi:id="_K7ZRwNODEe-CQfggnT3Wvw" login="pbaez@prediqt_nfr" firstName="Pamela" lastName="Baez" type="DQ"/>
+  <TalendProperties:User xmi:id="_K7ZRwdODEe-CQfggnT3Wvw" login="dchiriboga@prediqt_nfr" firstName="Diego" lastName="Chiriboga" type="DQ"/>
+  <TalendProperties:User xmi:id="_K7ZRwtODEe-CQfggnT3Wvw" login="mpena@prediqt_nfr" firstName="Manuel" lastName="Peña" type="DQ"/>
+  <TalendProperties:User xmi:id="_K7ZRw9ODEe-CQfggnT3Wvw" login="kgonzalez@prediqt_nfr" firstName="Karen" lastName="Gonzalez" type="DQ"/>
 </xmi:XMI>
