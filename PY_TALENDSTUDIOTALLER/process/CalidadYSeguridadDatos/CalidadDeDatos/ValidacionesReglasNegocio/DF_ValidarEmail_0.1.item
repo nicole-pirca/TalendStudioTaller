@@ -216,11 +216,9 @@
   <node componentName="tPatternCheck" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="280" posY="120">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPatternCheck_1" show="false"/>
     <elementParameter field="PREV_COLUMN_LIST" name="COLUMN2CHECK" value="Email"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_pRhTEbJPEe-fWeAW5qF96A" show="false"/>
     <elementParameter field="TEXT" name="PATTERN_ID" value="_pRhTEbJPEe-fWeAW5qF96A" show="false"/>
     <elementParameter field="TEXT" name="PATTERN_NAME" value="\internet\Email Address" show="false"/>
-    <elementParameter field="TEXT" name="PATTERN_REGEX" value="&quot;^[a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,4}$&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PATTERN_REGEX" value="&quot;^[a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,4}$&quot;"/>
     <elementParameter field="TEXT" name="PATTERN_REGEX_DB" value="Java" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="Clientes" name="tPatternCheck_1">
