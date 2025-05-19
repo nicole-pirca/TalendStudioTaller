@@ -1,0 +1,11 @@
+{
+  "itemId" : "_o94v8LJQEe-fWeAW5qF96A",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_D6wmELJREe-fWeAW5qF96A",
+    "parameterList" : [ {
+      "id" : "_D7atYLJREe-fWeAW5qF96A",
+      "name" : "ApiPublicaciones"
+    } ]
+  } ]
+}
