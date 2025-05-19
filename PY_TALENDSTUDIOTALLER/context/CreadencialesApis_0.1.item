@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_1Q7uEDT2EfCDObNqggPLqQ" confirmationNeeded="false" hide="false" name="Default">
+  <contextParameter xmi:id="_1Q88MDT2EfCDObNqggPLqQ" comment="" name="autorizacion" prompt="autorizacion?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_1Q9jQDT2EfCDObNqggPLqQ" comment="" name="endpoint_principal" prompt="endpoint_principal?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_1Q9jQTT2EfCDObNqggPLqQ" comment="" name="paginas" prompt="paginas?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_1Q9jQjT2EfCDObNqggPLqQ" comment="" name="next_pagina" prompt="next_pagina?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_1Q9jQzT2EfCDObNqggPLqQ" comment="" name="endJob" prompt="endJob?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_1Q9jRDT2EfCDObNqggPLqQ" comment="" name="status" prompt="status?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_1Q9jRTT2EfCDObNqggPLqQ" comment="" name="starDate" prompt="starDate?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_1Q9jRjT2EfCDObNqggPLqQ" comment="" name="endDate" prompt="endDate?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_1Q9jRzT2EfCDObNqggPLqQ" comment="" name="contStatus" prompt="contStatus?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+  <contextParameter xmi:id="_1Q9jSDT2EfCDObNqggPLqQ" comment="" name="FechaReproceso" prompt="FechaReproceso?" promptNeeded="false" repositoryContextId="built-in" type="id_Date" value=""/>
+</talendfile:ContextType>
