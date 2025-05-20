@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_qcWOQDWzEfCDObNqggPLqQ" name="Cnx_SQLServer" id="_igNeIDWzEfCDObNqggPLqQ" label="Cnx_SQLServer" dataPackage="_q6neoDWzEfCDObNqggPLqQ _q6nerjWzEfCDObNqggPLqQ _q6nevDWzEfCDObNqggPLqQ _q6ne1DWzEfCDObNqggPLqQ _q6ne5TWzEfCDObNqggPLqQ _q6ne8zWzEfCDObNqggPLqQ" DatabaseType="Microsoft SQL Server" DriverClass="com.microsoft.sqlserver.jdbc.SQLServerDriver" URL="jdbc:sqlserver://172.191.87.57:1433;DatabaseName=;" dbVersionString="MSSQL_PROP" Port="1433" Username="poc" Password="enc:system.encryption.key.v1:XVG36PoyTNZg6qzwJgQrrsiJOSIbRbvxro71IdgZKtMfNP8mrXdi" ServerName="172.191.87.57" DatasourceName="" FileFieldName="" SID="" SqlSynthax="" StringQuote="" NullChar="" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="" supportNLS="false">
+    <taggedValue xmi:id="_qcWOQTWzEfCDObNqggPLqQ" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_qd5GYDWzEfCDObNqggPLqQ" tag="package filter" value=""/>
+    <taggedValue xmi:id="_qeDecDWzEfCDObNqggPLqQ" tag="Status" value=""/>
+    <taggedValue xmi:id="_qeDecTWzEfCDObNqggPLqQ" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_qeDecjWzEfCDObNqggPLqQ" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_qeDeczWzEfCDObNqggPLqQ" tag="Description" value=""/>
+    <taggedValue xmi:id="_qeDedDWzEfCDObNqggPLqQ" tag="Author" value=""/>
+    <taggedValue xmi:id="_qeDedTWzEfCDObNqggPLqQ" tag="otherParameter"/>
+    <taggedValue xmi:id="_qjNrQDWzEfCDObNqggPLqQ" tag="DB ProductName" value="Microsoft SQL Server"/>
+    <taggedValue xmi:id="_qjNrQTWzEfCDObNqggPLqQ" tag="DB ProductVersion" value="15.00.4430"/>
+    <taggedValue xmi:id="_qjNrQjWzEfCDObNqggPLqQ" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_qcWOQjWzEfCDObNqggPLqQ" key="CONN_PARA_KEY_USERNAME" value="poc"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_q6neoDWzEfCDObNqggPLqQ" name="master" dataManager="_qcWOQDWzEfCDObNqggPLqQ">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6neoTWzEfCDObNqggPLqQ" name="db_accessadmin"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6neojWzEfCDObNqggPLqQ" name="db_backupoperator"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6neozWzEfCDObNqggPLqQ" name="db_datareader"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6nepDWzEfCDObNqggPLqQ" name="db_datawriter"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6nepTWzEfCDObNqggPLqQ" name="db_ddladmin"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6nepjWzEfCDObNqggPLqQ" name="db_denydatareader"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6nepzWzEfCDObNqggPLqQ" name="db_denydatawriter"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6neqDWzEfCDObNqggPLqQ" name="db_owner"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6neqTWzEfCDObNqggPLqQ" name="db_securityadmin"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6neqjWzEfCDObNqggPLqQ" name="dbo"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6neqzWzEfCDObNqggPLqQ" name="guest"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6nerDWzEfCDObNqggPLqQ" name="INFORMATION_SCHEMA"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6nerTWzEfCDObNqggPLqQ" name="sys"/>
+  </orgomg.cwm.resource.relational:Catalog>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_q6nerjWzEfCDObNqggPLqQ" name="model" dataManager="_qcWOQDWzEfCDObNqggPLqQ">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6nerzWzEfCDObNqggPLqQ" name="db_accessadmin"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6nesDWzEfCDObNqggPLqQ" name="db_backupoperator"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6nesTWzEfCDObNqggPLqQ" name="db_datareader"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6nesjWzEfCDObNqggPLqQ" name="db_datawriter"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6neszWzEfCDObNqggPLqQ" name="db_ddladmin"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6netDWzEfCDObNqggPLqQ" name="db_denydatareader"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6netTWzEfCDObNqggPLqQ" name="db_denydatawriter"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6netjWzEfCDObNqggPLqQ" name="db_owner"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6netzWzEfCDObNqggPLqQ" name="db_securityadmin"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6neuDWzEfCDObNqggPLqQ" name="dbo"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6neuTWzEfCDObNqggPLqQ" name="guest"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6neujWzEfCDObNqggPLqQ" name="INFORMATION_SCHEMA"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6neuzWzEfCDObNqggPLqQ" name="sys"/>
+  </orgomg.cwm.resource.relational:Catalog>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_q6nevDWzEfCDObNqggPLqQ" name="msdb" dataManager="_qcWOQDWzEfCDObNqggPLqQ">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6nevTWzEfCDObNqggPLqQ" name="db_accessadmin"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6nevjWzEfCDObNqggPLqQ" name="db_backupoperator"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6nevzWzEfCDObNqggPLqQ" name="db_datareader"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6newDWzEfCDObNqggPLqQ" name="db_datawriter"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6newTWzEfCDObNqggPLqQ" name="db_ddladmin"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6newjWzEfCDObNqggPLqQ" name="db_denydatareader"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6newzWzEfCDObNqggPLqQ" name="db_denydatawriter"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6nexDWzEfCDObNqggPLqQ" name="db_owner"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6nexTWzEfCDObNqggPLqQ" name="db_securityadmin"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6nexjWzEfCDObNqggPLqQ" name="dbo"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6nexzWzEfCDObNqggPLqQ" name="guest"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6neyDWzEfCDObNqggPLqQ" name="INFORMATION_SCHEMA"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6neyTWzEfCDObNqggPLqQ" name="sys"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6neyjWzEfCDObNqggPLqQ" name="DatabaseMailUserRole"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6neyzWzEfCDObNqggPLqQ" name="db_ssisadmin"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6nezDWzEfCDObNqggPLqQ" name="db_ssisltduser"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6nezTWzEfCDObNqggPLqQ" name="db_ssisoperator"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6nezjWzEfCDObNqggPLqQ" name="managed_backup"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6nezzWzEfCDObNqggPLqQ" name="smart_admin"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6ne0DWzEfCDObNqggPLqQ" name="SQLAgentOperatorRole"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6ne0TWzEfCDObNqggPLqQ" name="SQLAgentReaderRole"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6ne0jWzEfCDObNqggPLqQ" name="SQLAgentUserRole"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6ne0zWzEfCDObNqggPLqQ" name="TargetServersRole"/>
+  </orgomg.cwm.resource.relational:Catalog>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_q6ne1DWzEfCDObNqggPLqQ" name="POC" dataManager="_qcWOQDWzEfCDObNqggPLqQ">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6ne1TWzEfCDObNqggPLqQ" name="db_accessadmin"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6ne1jWzEfCDObNqggPLqQ" name="db_backupoperator"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6ne1zWzEfCDObNqggPLqQ" name="db_datareader"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6ne2DWzEfCDObNqggPLqQ" name="db_datawriter"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6ne2TWzEfCDObNqggPLqQ" name="db_ddladmin"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6ne2jWzEfCDObNqggPLqQ" name="db_denydatareader"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6ne2zWzEfCDObNqggPLqQ" name="db_denydatawriter"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6ne3DWzEfCDObNqggPLqQ" name="db_owner"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6ne3TWzEfCDObNqggPLqQ" name="db_securityadmin"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6ne3jWzEfCDObNqggPLqQ" name="dbo"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6ne3zWzEfCDObNqggPLqQ" name="guest"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6ne4DWzEfCDObNqggPLqQ" name="INFORMATION_SCHEMA"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6ne4TWzEfCDObNqggPLqQ" name="sys"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6ne4jWzEfCDObNqggPLqQ" name="OperacionesTarjetasTalend"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6ne4zWzEfCDObNqggPLqQ" name="POC"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6ne5DWzEfCDObNqggPLqQ" name="test"/>
+  </orgomg.cwm.resource.relational:Catalog>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_q6ne5TWzEfCDObNqggPLqQ" name="tempdb" dataManager="_qcWOQDWzEfCDObNqggPLqQ">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6ne5jWzEfCDObNqggPLqQ" name="db_accessadmin"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6ne5zWzEfCDObNqggPLqQ" name="db_backupoperator"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6ne6DWzEfCDObNqggPLqQ" name="db_datareader"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6ne6TWzEfCDObNqggPLqQ" name="db_datawriter"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6ne6jWzEfCDObNqggPLqQ" name="db_ddladmin"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6ne6zWzEfCDObNqggPLqQ" name="db_denydatareader"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6ne7DWzEfCDObNqggPLqQ" name="db_denydatawriter"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6ne7TWzEfCDObNqggPLqQ" name="db_owner"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6ne7jWzEfCDObNqggPLqQ" name="db_securityadmin"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6ne7zWzEfCDObNqggPLqQ" name="dbo"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6ne8DWzEfCDObNqggPLqQ" name="guest"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6ne8TWzEfCDObNqggPLqQ" name="INFORMATION_SCHEMA"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6ne8jWzEfCDObNqggPLqQ" name="sys"/>
+  </orgomg.cwm.resource.relational:Catalog>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_q6ne8zWzEfCDObNqggPLqQ" name="transacciones" dataManager="_qcWOQDWzEfCDObNqggPLqQ">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6ne9DWzEfCDObNqggPLqQ" name="db_accessadmin"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6ne9TWzEfCDObNqggPLqQ" name="db_backupoperator"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6ne9jWzEfCDObNqggPLqQ" name="db_datareader"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6ne9zWzEfCDObNqggPLqQ" name="db_datawriter"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6ne-DWzEfCDObNqggPLqQ" name="db_ddladmin"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6ne-TWzEfCDObNqggPLqQ" name="db_denydatareader"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6ne-jWzEfCDObNqggPLqQ" name="db_denydatawriter"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6ne-zWzEfCDObNqggPLqQ" name="db_owner"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6ne_DWzEfCDObNqggPLqQ" name="db_securityadmin"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6ne_TWzEfCDObNqggPLqQ" name="dbo"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6ne_jWzEfCDObNqggPLqQ" name="guest"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6ne_zWzEfCDObNqggPLqQ" name="INFORMATION_SCHEMA"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6nfADWzEfCDObNqggPLqQ" name="sys"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q6nfATWzEfCDObNqggPLqQ" name="cdc"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>
