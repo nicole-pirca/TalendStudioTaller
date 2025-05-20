@@ -1,0 +1,38 @@
+{
+  "itemId" : "_AP6AEDTWEfCDObNqggPLqQ",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_1QUDADT2EfCDObNqggPLqQ",
+    "parameterList" : [ {
+      "id" : "_1Q88MDT2EfCDObNqggPLqQ",
+      "name" : "autorizacion"
+    }, {
+      "id" : "_1Q9jQDT2EfCDObNqggPLqQ",
+      "name" : "endpoint_principal"
+    }, {
+      "id" : "_1Q9jQTT2EfCDObNqggPLqQ",
+      "name" : "paginas"
+    }, {
+      "id" : "_1Q9jQjT2EfCDObNqggPLqQ",
+      "name" : "next_pagina"
+    }, {
+      "id" : "_1Q9jQzT2EfCDObNqggPLqQ",
+      "name" : "endJob"
+    }, {
+      "id" : "_1Q9jRDT2EfCDObNqggPLqQ",
+      "name" : "status"
+    }, {
+      "id" : "_1Q9jRTT2EfCDObNqggPLqQ",
+      "name" : "starDate"
+    }, {
+      "id" : "_1Q9jRjT2EfCDObNqggPLqQ",
+      "name" : "endDate"
+    }, {
+      "id" : "_1Q9jRzT2EfCDObNqggPLqQ",
+      "name" : "contStatus"
+    }, {
+      "id" : "_1Q9jSDT2EfCDObNqggPLqQ",
+      "name" : "FechaReproceso"
+    } ]
+  } ]
+}
