@@ -1,5 +1,20 @@
 [ {
   "baseItem" : {
+    "id" : "_-pjAADW2EfCDObNqggPLqQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_igNeIDWzEfCDObNqggPLqQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_igNeIDWzEfCDObNqggPLqQ - TarjetasPOC",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_7JdvEL1SEe-kAtOAa_l1Bw",
     "version" : "0.1",
     "type" : "job"
