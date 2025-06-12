@@ -247,14 +247,6 @@
     "id" : "_xv-ioDyzEfCsh_TY3h_0zA",
     "version" : "Latest",
     "type" : "joblet"
-  }, {
-    "id" : "_9oEyADyzEfCsh_TY3h_0zA",
-    "version" : "Latest",
-    "type" : "property"
-  }, {
-    "id" : "_9oEyADyzEfCsh_TY3h_0zA - metadata",
-    "version" : "Latest",
-    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
