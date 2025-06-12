@@ -1,0 +1,17 @@
+{
+  "itemId" : "_fz25AECdEfCZRZlR8P1gJA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_7cAtoDy0EfCsh_TY3h_0zA",
+    "parameterList" : [ {
+      "id" : "_7cdZkTy0EfCsh_TY3h_0zA",
+      "name" : "username"
+    }, {
+      "id" : "_7cdZkjy0EfCsh_TY3h_0zA",
+      "name" : "pass"
+    }, {
+      "id" : "_FRY3UDy1EfCsh_TY3h_0zA",
+      "name" : "url"
+    } ]
+  } ]
+}

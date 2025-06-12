@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_PCqxQEbTEfCDqcFwoEjTkQ" name="MD_MuestraDB" dataPackage="_PCqxQUbTEfCDqcFwoEjTkQ" Server="Localhost 127.0.0.1" FilePath="C:/Users/USER_LENOVO/Documents/muestra_consumoab(Sheet1).xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="muestra_consumoab(Sheet1)" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="muestra_consumoab(Sheet1):w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+    <sheetColumns>H</sheetColumns>
+    <sheetColumns>I</sheetColumns>
+    <sheetColumns>J</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_PCqxQUbTEfCDqcFwoEjTkQ" name="default" dataManager="_PCqxQEbTEfCDqcFwoEjTkQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_PCrYUEbTEfCDqcFwoEjTkQ" id="_yU6MUEbSEfCDqcFwoEjTkQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PCrYUUbTEfCDqcFwoEjTkQ" label="olt" length="30" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PCrYUkbTEfCDqcFwoEjTkQ" label="serial" length="16" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PCrYU0bTEfCDqcFwoEjTkQ" label="upstream" length="17" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PCrYVEbTEfCDqcFwoEjTkQ" label="time_upstream" length="28" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PCrYVUbTEfCDqcFwoEjTkQ" label="downstream" length="17" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PCrYVkbTEfCDqcFwoEjTkQ" label="time_downstream" length="28" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PCrYV0bTEfCDqcFwoEjTkQ" label="causa_ultima_caida" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PCrYWEbTEfCDqcFwoEjTkQ" label="puerto" length="28" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PCrYWUbTEfCDqcFwoEjTkQ" label="up_down" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PCrYWkbTEfCDqcFwoEjTkQ" label="particion" length="8" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

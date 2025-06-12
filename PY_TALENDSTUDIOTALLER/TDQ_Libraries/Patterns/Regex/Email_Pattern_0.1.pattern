@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain.pattern="http://dataquality.domain.pattern" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore">
+  <dataquality.domain.pattern:Pattern xmi:id="_yQpBoD_SEfCn0N-6qJSSoQ" name="Email_Pattern" supplierDependency="_Rr2rUD_TEfCn0N-6qJSSoQ">
+    <taggedValue xmi:id="_yQpBoT_SEfCn0N-6qJSSoQ" tag="Status" value="development"/>
+    <taggedValue xmi:id="_yQpBoj_SEfCn0N-6qJSSoQ" tag="Author" value="npirca@prediqt_nfr"/>
+    <taggedValue xmi:id="_yQpBoz_SEfCn0N-6qJSSoQ" tag="Purpose" value="Valida direcciones de correos"/>
+    <taggedValue xmi:id="_yQpBpD_SEfCn0N-6qJSSoQ" tag="Description" value="Regex se crea en base al análisis de frecuencia de patrones (Pattern Frecuency Analysis)"/>
+    <taggedValue xmi:id="_yQpBpT_SEfCn0N-6qJSSoQ" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_yQpBpj_SEfCn0N-6qJSSoQ" tag="Validation_Status" value="true"/>
+    <components xsi:type="dataquality.domain.pattern:RegularExpression" xmi:id="_yQpBpz_SEfCn0N-6qJSSoQ" expressionType="REGEXP">
+      <expression xmi:id="_yQpBqD_SEfCn0N-6qJSSoQ" body="'^[a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z]@[a-z][a-z][a-z][a-z][a-z][a-z]\.[a-z][a-z][a-z]$'" language="MySQL"/>
+    </components>
+  </dataquality.domain.pattern:Pattern>
+  <orgomg.cwm.objectmodel.core:Dependency xmi:id="_Rr2rUD_TEfCn0N-6qJSSoQ" kind="Usage" supplier="_yQpBoD_SEfCn0N-6qJSSoQ">
+    <client xsi:type="dataquality.analysis:Analysis" href="../../../TDQ_Data Profiling/Analyses/DP_Column_Analysis/Email_Column_Analysis_0.1.ana#_lp8jsD_OEfCn0N-6qJSSoQ"/>
+  </orgomg.cwm.objectmodel.core:Dependency>
+</xmi:XMI>

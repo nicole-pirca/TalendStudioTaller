@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:dataquality.indicators.sql="http://dataquality.indicators.sql" xmlns:dataquality.rules="http://dataquality.rules" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <dataquality.analysis:Analysis xmi:id="__pHbcD1dEfCiY9GNc-kAsw" name="AnaliysTablas" creationDate="2025-05-30T08:57:15.965-0500" defaultContext="Default">
+    <clientDependency href="../../TDQ_Libraries/Rules/SQL/Demo_DQ_Rule_0.1.rules#_G3bcQD1eEfCiY9GNc-kAsw"/>
+    <clientDependency href="../../metadata/connections/Cnx_MySQL_0.1.item#_AyhQQLy5Ee-kAtOAa_l1Bw"/>
+    <taggedValue xmi:id="__pHbcT1dEfCiY9GNc-kAsw" tag="Status" value="development"/>
+    <taggedValue xmi:id="__pHbcj1dEfCiY9GNc-kAsw" tag="Author" value="npirca@prediqt_nfr"/>
+    <taggedValue xmi:id="__pHbcz1dEfCiY9GNc-kAsw" tag="Purpose" value=""/>
+    <taggedValue xmi:id="__pHbdD1dEfCiY9GNc-kAsw" tag="Description" value=""/>
+    <taggedValue xmi:id="__pHbdT1dEfCiY9GNc-kAsw" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_JsdvsT1eEfCiY9GNc-kAsw" tag="ANA_LAST_RUN_CONTEXT" value="Default"/>
+    <taggedValue xmi:id="_JsoHwD1eEfCiY9GNc-kAsw" tag="NUMBER_OF_CONNECTIONS_PER_ANALYSIS" value="5"/>
+    <context xmi:id="__pHbdj1dEfCiY9GNc-kAsw">
+      <connection href="../../metadata/connections/Cnx_MySQL_0.1.item#__MUjQLZ9Ee-fWeAW5qF96A"/>
+      <analysedElements xsi:type="relational:TdTable" href="../../metadata/connections/Cnx_MySQL_0.1.item#_IFB9gPBfEe-X5P0c9GdU_Q"/>
+      <analysedElements xsi:type="relational:TdTable" href="../../metadata/connections/Cnx_MySQL_0.1.item#_xRjO0byOEe-5hItWv6U9vg"/>
+      <analysedElements xsi:type="relational:TdTable" href="../../metadata/connections/Cnx_MySQL_0.1.item#_tkbTQLyCEe-5hItWv6U9vg"/>
+    </context>
+    <results xmi:id="__pHbdz1dEfCiY9GNc-kAsw">
+      <resultMetadata xmi:id="__pHbeD1dEfCiY9GNc-kAsw" executionDate="2025-05-30T08:58:30.805-0500" executionDuration="3460" message="Query not executed for indicator: &quot;Demo DQ Rule&quot; SQL query: SELECT COUNT(*) FROM `STG_Data`.`CustomersNP`   WHERE (example != ''). Exception: Unknown column 'example' in 'where clause'" executionNumber="1" lastRunOk="true" lastExecutionNumberOk="1"/>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_JseWwD1eEfCiY9GNc-kAsw" computed="true">
+        <analyzedElement xsi:type="relational:TdTable" href="../../metadata/connections/Cnx_MySQL_0.1.item#_IFB9gPBfEe-X5P0c9GdU_Q"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_Kx5twD1eEfCiY9GNc-kAsw" body="SELECT COUNT(*) FROM `STG_Data`.`CustomersNP` " language="MySQL"/>
+        <builtInIndicatorDefinition xmi:id="_Kw7dYD1eEfCiY9GNc-kAsw" name="Row Count" label="Row Count">
+          <taggedValue xmi:id="_Kw7dYT1eEfCiY9GNc-kAsw" tag="Description" value="counts the number of rows"/>
+          <taggedValue xmi:id="_Kw7dYj1eEfCiY9GNc-kAsw" tag="Purpose" value="evaluates the number of records"/>
+          <sqlGenericExpression xmi:id="_Kw7dYz1eEfCiY9GNc-kAsw" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators.sql:WhereRuleIndicator" xmi:id="_JseWwT1eEfCiY9GNc-kAsw">
+        <analyzedElement xsi:type="relational:TdTable" href="../../metadata/connections/Cnx_MySQL_0.1.item#_IFB9gPBfEe-X5P0c9GdU_Q"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Rules/SQL/Demo_DQ_Rule_0.1.rules#_hXIKcA-ZEd6qupbF9NyF4w"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_Kx5twT1eEfCiY9GNc-kAsw" body="SELECT COUNT(*) FROM `STG_Data`.`CustomersNP`   WHERE (example != '')" language="MySQL"/>
+        <builtInIndicatorDefinition xsi:type="dataquality.rules:WhereRule" xmi:id="_KxQNgD1eEfCiY9GNc-kAsw" name="Demo DQ Rule" criticalityLevel="1" whereExpression="example != ''">
+          <taggedValue xmi:id="_KxQNgT1eEfCiY9GNc-kAsw" tag="Author" value="xqliu"/>
+          <taggedValue xmi:id="_KxQNgj1eEfCiY9GNc-kAsw" tag="Description" value="demo"/>
+          <taggedValue xmi:id="_KxQNgz1eEfCiY9GNc-kAsw" tag="Purpose" value="demo"/>
+          <taggedValue xmi:id="_KxQNhD1eEfCiY9GNc-kAsw" tag="Status" value="Draft"/>
+          <taggedValue xmi:id="_KxQNhT1eEfCiY9GNc-kAsw" tag="Validation_Status" value="true"/>
+          <sqlGenericExpression xmi:id="_KxQNhj1eEfCiY9GNc-kAsw" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__JOIN_CLAUSE__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_JsgL8D1eEfCiY9GNc-kAsw" count="770" computed="true">
+        <analyzedElement xsi:type="relational:TdTable" href="../../metadata/connections/Cnx_MySQL_0.1.item#_xRjO0byOEe-5hItWv6U9vg"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_Kx5twj1eEfCiY9GNc-kAsw" body="SELECT COUNT(*) FROM `STG_Data`.`ClientesOpt` " language="MySQL"/>
+        <builtInIndicatorDefinition xmi:id="_KxeP8D1eEfCiY9GNc-kAsw" name="Row Count" label="Row Count">
+          <taggedValue xmi:id="_KxeP8T1eEfCiY9GNc-kAsw" tag="Description" value="counts the number of rows"/>
+          <taggedValue xmi:id="_KxeP8j1eEfCiY9GNc-kAsw" tag="Purpose" value="evaluates the number of records"/>
+          <sqlGenericExpression xmi:id="_KxeP8z1eEfCiY9GNc-kAsw" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_JsgL8T1eEfCiY9GNc-kAsw" count="770" computed="true">
+        <analyzedElement xsi:type="relational:TdTable" href="../../metadata/connections/Cnx_MySQL_0.1.item#_tkbTQLyCEe-5hItWv6U9vg"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_Kx5twz1eEfCiY9GNc-kAsw" body="SELECT COUNT(*) FROM `STG_Data`.`Clientes` " language="MySQL"/>
+        <builtInIndicatorDefinition xmi:id="_Kxp2ID1eEfCiY9GNc-kAsw" name="Row Count" label="Row Count">
+          <taggedValue xmi:id="_Kxp2IT1eEfCiY9GNc-kAsw" tag="Description" value="counts the number of rows"/>
+          <taggedValue xmi:id="_Kxp2Ij1eEfCiY9GNc-kAsw" tag="Purpose" value="evaluates the number of records"/>
+          <sqlGenericExpression xmi:id="_Kxp2Iz1eEfCiY9GNc-kAsw" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+    </results>
+    <parameters xmi:id="__pHbeT1dEfCiY9GNc-kAsw" dataFilter="_JtH3AD1eEfCiY9GNc-kAsw" analysisType="Table Analysis"/>
+    <contextType xmi:id="_JsdvsD1eEfCiY9GNc-kAsw" confirmationNeeded="false" hide="false" name="Default"/>
+  </dataquality.analysis:Analysis>
+  <dataquality.domain:Domain xmi:id="_JtH3AD1eEfCiY9GNc-kAsw" name="AnaliysTablas">
+    <ranges xmi:id="_JtIeED1eEfCiY9GNc-kAsw">
+      <expressions xmi:id="_JtIeET1eEfCiY9GNc-kAsw">
+        <expression xsi:type="relational:TdExpression" xmi:id="_JtIeEj1eEfCiY9GNc-kAsw" body="" language="SQL"/>
+      </expressions>
+    </ranges>
+  </dataquality.domain:Domain>
+</xmi:XMI>
